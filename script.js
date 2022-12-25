@@ -218,3 +218,5 @@ function go_to(x) {
   clearInterval(autoMove);
   intervalTimer(1);
 }
+
+alert("New features have been added")
