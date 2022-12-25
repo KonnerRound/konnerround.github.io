@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon"  href="R.png"/>
+    <title>Konner Round Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1 id="welcome">Welcome</h1>
+    <div id="all_content">
+      <div id="main">
+        <div id="circle">
+          <div id="astronaut">
+            <div class="button" id="about">About</div>
+          </div>
+          <div id="sattelite">
+            <div class="button" id="projects">Projects</div>
+          </div>
+          <div id="sun">
+            <div></div>
+          </div>
+          <div id="moon">
+            <div class="button" id="contact"><span style="border:1px solid white;border-radius:1em;padding:2px;">Contact</span><br>|</div>
+          </div>
+  
+          <div id="alien_ship">
+            <div id="quotes_page"></div>
+          </div>
+  
+          <div id="dim2">
+            <img src="VTNbF8c.gif" id="bh">
+          </div>
+        </div>
+  
+        <div class="buttons" id="left_button">
+          < </div>
+            <div class="buttons" id="right_button"> > </div>
+            <img src="https://imgur.com/ZtVo9SJ.jpg" id="planet" alt="planet"></img>
+            <div id="nav">
+              <span class="fa fa-gears"></span>
+              <span class="fa fa-send-o" onclick="go_to(-180)"></span>
+              <span class="fa fa-gamepad" onclick="go_to(-90)"></span>
+              <span class="fa fa-address-card" onclick="go_to(0)"></span>
+            </div>
+        </div>
+  
+        <!--About page-->
+        <div id="container">
+          <div class="grid-container">
+            <div class="area1">
+              <h3>Details<span id="close" onclick="open_page('container')">x<span></h3>
+              <p>Name: Konner Round</p>
+              <p>Age: 14</p>
+              <p>Gender: Male</p>
+              <p>Occupation: Student</p>
+              <p>Location: Earth</p>
+  
+            </div>
+            <div class="area2">
+              <h3>Skills</h3>
+              <div>
+                <span class="skill">HTML</span>
+                <span class="skill">CSS</span>
+                <span class="skill">JavaScript</span>
+                <span class="skill">Python</span>
+              </div>
+            </div>
+            <div class="area3">
+              <h3>Passions</h3>
+              <span class="skill">Programming</span>
+              <span class="skill">Game development</span>
+              <span class="skill">Web Art</span>
+              <span class="skill">Football</span>
+              <span class="skill">Running</span>
+            </div>
+            <div class="my_image">
+  
+            </div>
+          </div>
+        </div>
+        <!--Projects page-->
+  
+        <div id="cards-container">
+          <h3 style="cursor:pointer;" onclick="open_page('cards-container')"><i class="fa fa-arrow-circle-left"></i> Back</h3>
+          <h3>My projects <span class="fa fa-gamepad"></span></h3>
+          <div class="element">
+            <!--1-->
+            <div class="obj">
+              <img src="https://imgur.com/nGgNSRo.jpg" class=obj-img>
+              <div class="project_title">Konner Round Portfolio</div>
+              <a href="" target='_blank' class="glyphicon glyphicon-play-circle"></a>
+            </div>
+            <!--2-->
+            <div class="obj">
+              <img src="https://imgur.com/4w4OsIf.jpg" class=obj-img>
+              <div class="project_title">ChatCPC</div>
+              <a href="" target='_blank' class="glyphicon glyphicon-play-circle"></a>
+            </div>
+            <!--2.1-->
+            <div class="obj">
+              <img src="https://imgur.com/XhY2HB4.jpg" class=obj-img>
+              <div class="project_title">Vr Game</div>
+              <a href="" target='_blank' class="glyphicon glyphicon-play-circle"></a>
+            </div>
+          </div>
+        </div>
+  
+        <!--Contact-page-->
+        <div id="contact-container">
+          <i class="fa fa-facebook-official"></i>
+          <i class="fa fa-codepen"></i>
+          <i class="fa fa-free-code-camp"></i>
+          <i class="fa fa-instagram"></i>
+          <i class="fa fa-phone-square"></i>
+          <i class="fa fa-send-o"></i>
+          <i class="fa fa-youtube-play"></i>
+          <div id="contact-x">x</div>
+          <div id="help-sign">
+            <img src="cImPupF.png" id="alien-sign"></img>
+            What can I help you with?
+          </div>
+        </div>
+      </div>
+      <script src="script.js"></script>
+  </body>
+</html>
